@@ -6,9 +6,12 @@
 
 Un joven aprendiz de magia y hechicería desea conquistar el mundo mágico. La
 capacidad de hacer magia es innata, pero el joven mago debe asistir a Hogwarts con el fin
-de dominarla y controlarla. Para lograrlo, necesita un sistema que le permita manejar los
-hechizos que irá descubriendo y agregando a su Libro de Hechizos. Para ponerlos en
-práctica, nuestro mago se mueve a un mundo simulado, donde se encuentra con Animales
+de dominarla y controlarla. 
+
+Para lograrlo, necesita un sistema que le permita manejar los
+hechizos que irá descubriendo y agregando a su Libro de Hechizos. 
+
+Para ponerlos en práctica, nuestro mago se mueve a un mundo simulado, donde se encuentra con Animales
 y Muebles que serán Hechizables, que por ahora solo pueden ser desarmados y agrandados,
 además de responder consultas acerca de su estado mágico actual.
 
