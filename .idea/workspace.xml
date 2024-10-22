@@ -1,17 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="f15a292c-4c7e-4b97-a87e-510f389f27e3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LibroDeHechizos.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ar/edu/unahur/obj2/hechizos/Expelliarmus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ar/edu/unahur/obj2/hechizos/Hechizo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ar/edu/unahur/obj2/hechizos/LibroDeHechizos.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/ar/edu/unahur/obj2/hechizos/test.java" afterDir="false" />
+    <list default="true" id="f15a292c-4c7e-4b97-a87e-510f389f27e3" name="Changes" comment="create">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ar/edu/unahur/obj2/hechizos/Expelliarmus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ar/edu/unahur/obj2/hechizos/Expelliarmus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ar/edu/unahur/obj2/hechizos/LibroDeHechizos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ar/edu/unahur/obj2/hechizos/LibroDeHechizos.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/ar/edu/unahur/obj2/hechizos/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/ar/edu/unahur/obj2/hechizos/test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,6 +25,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "RaTon84"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/RaTon84/TP11-Libro-de-hechizos.git",
+    "accountId": "19f3d8b4-f032-4915-98ce-9f3b96c407ce"
+  }
+}]]></component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 8
 }]]></component>
@@ -41,6 +50,7 @@
   "keyToString": {
     "Downloaded.Files.Path.Enabled": "false",
     "JUnit.test.executor": "Run",
+    "JUnit.test.queSePuedaAgregarUnHechizoAlLibro.executor": "Run",
     "Repository.Attach.Annotations": "false",
     "Repository.Attach.JavaDocs": "false",
     "Repository.Attach.Sources": "false",
@@ -55,7 +65,12 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="ar.edu.unahur.obj2.hechizos" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.test.queSePuedaAgregarUnHechizoAlLibro">
     <configuration name="test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LibroDeHechizos" />
       <extension name="coverage">
@@ -71,8 +86,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="test.queSePuedaAgregarUnHechizoAlLibro" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LibroDeHechizos" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ar.edu.unahur.obj2.hechizos.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ar.edu.unahur.obj2.hechizos" />
+      <option name="MAIN_CLASS_NAME" value="ar.edu.unahur.obj2.hechizos.test" />
+      <option name="METHOD_NAME" value="queSePuedaAgregarUnHechizoAlLibro" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.test.queSePuedaAgregarUnHechizoAlLibro" />
         <item itemvalue="JUnit.test" />
       </list>
     </recent_temporary>
@@ -93,11 +125,24 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1729608262117</updated>
-      <workItem from="1729608263136" duration="390000" />
+      <workItem from="1729608263136" duration="4378000" />
     </task>
+    <task id="LOCAL-00001" summary="create">
+      <option name="closed" value="true" />
+      <created>1729608742155</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1729608742155</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="create" />
+    <option name="LAST_COMMIT_MESSAGE" value="create" />
   </component>
 </project>
