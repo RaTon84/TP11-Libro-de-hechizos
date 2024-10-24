@@ -5,8 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f15a292c-4c7e-4b97-a87e-510f389f27e3" name="Changes" comment="create">
+      <change afterPath="$PROJECT_DIR$/src/ar/edu/unahur/obj2/hechizos/Agrandar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ar/edu/unahur/obj2/hechizos/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ar/edu/unahur/obj2/hechizos/Hechizable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ar/edu/unahur/obj2/hechizos/Mueble.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ar/edu/unahur/obj2/hechizos/Expelliarmus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ar/edu/unahur/obj2/hechizos/Expelliarmus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ar/edu/unahur/obj2/hechizos/Hechizo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ar/edu/unahur/obj2/hechizos/Hechizo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ar/edu/unahur/obj2/hechizos/LibroDeHechizos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ar/edu/unahur/obj2/hechizos/LibroDeHechizos.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/ar/edu/unahur/obj2/hechizos/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/ar/edu/unahur/obj2/hechizos/test.java" afterDir="false" />
     </list>
@@ -25,21 +30,21 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "RaTon84"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;RaTon84&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/RaTon84/TP11-Libro-de-hechizos.git",
-    "accountId": "19f3d8b4-f032-4915-98ce-9f3b96c407ce"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/RaTon84/TP11-Libro-de-hechizos.git&quot;,
+    &quot;accountId&quot;: &quot;19f3d8b4-f032-4915-98ce-9f3b96c407ce&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 8
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="2nnUJYZICQ7mn96bK8o2be4Y54A" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -51,6 +56,8 @@
     "Downloaded.Files.Path.Enabled": "false",
     "JUnit.test.executor": "Run",
     "JUnit.test.queSePuedaAgregarUnHechizoAlLibro.executor": "Run",
+    "JUnit.test.verSiUnHechizableCrece.executor": "Run",
+    "JUnit.test.verSiUnHechizableEstaHechizado.executor": "Run",
     "Repository.Attach.Annotations": "false",
     "Repository.Attach.JavaDocs": "false",
     "Repository.Attach.Sources": "false",
@@ -70,7 +77,7 @@
       <recent name="ar.edu.unahur.obj2.hechizos" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.test.queSePuedaAgregarUnHechizoAlLibro">
+  <component name="RunManager" selected="JUnit.test">
     <configuration name="test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LibroDeHechizos" />
       <extension name="coverage">
@@ -102,10 +109,44 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="test.verSiUnHechizableCrece" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LibroDeHechizos" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ar.edu.unahur.obj2.hechizos.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ar.edu.unahur.obj2.hechizos" />
+      <option name="MAIN_CLASS_NAME" value="ar.edu.unahur.obj2.hechizos.test" />
+      <option name="METHOD_NAME" value="verSiUnHechizableCrece" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="test.verSiUnHechizableEstaHechizado" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LibroDeHechizos" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ar.edu.unahur.obj2.hechizos.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ar.edu.unahur.obj2.hechizos" />
+      <option name="MAIN_CLASS_NAME" value="ar.edu.unahur.obj2.hechizos.test" />
+      <option name="METHOD_NAME" value="verSiUnHechizableEstaHechizado" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.test.queSePuedaAgregarUnHechizoAlLibro" />
         <item itemvalue="JUnit.test" />
+        <item itemvalue="JUnit.test.verSiUnHechizableEstaHechizado" />
+        <item itemvalue="JUnit.test.verSiUnHechizableCrece" />
+        <item itemvalue="JUnit.test.queSePuedaAgregarUnHechizoAlLibro" />
       </list>
     </recent_temporary>
   </component>
@@ -125,7 +166,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1729608262117</updated>
-      <workItem from="1729608263136" duration="4378000" />
+      <workItem from="1729608263136" duration="5718000" />
+      <workItem from="1729629111554" duration="1073000" />
+      <workItem from="1729781726571" duration="2717000" />
     </task>
     <task id="LOCAL-00001" summary="create">
       <option name="closed" value="true" />
@@ -135,11 +178,30 @@
       <option name="project" value="LOCAL" />
       <updated>1729608742155</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="create">
+      <option name="closed" value="true" />
+      <created>1729612883501</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1729612883501</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="create" />
