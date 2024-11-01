@@ -5,20 +5,20 @@ import static org.junit.Assert.*;
 
 public class test {
     LibroDeHechizos libro = new LibroDeHechizos();
-    
+    Hechizo desarme = new Expelliarmus();
+    Hechizo desarme2 = new Expelliarmus();
+    Hechizo crecer = new Agrandar("enormuvus");
+
     @Test
-    public void queSePuedaAgregarUnHechizoAlLibro(){        
-        Hechizo desarme = new Expelliarmus();
+    public void queSePuedaAgregarUnHechizoAlLibro(){
         libro.agregarHechizo(desarme);
-//        System.out.println(libro.getHechizos());
         assertEquals(desarme, libro.buscar("expelliarmus"));
     }
 
     @Test
     public void verSiUnHechizableEstaHechizado(){
-        Expelliarmus desarme = new Expelliarmus();
-        Hechizable perro = new Animal();
         libro.agregarHechizo(desarme);
+        Hechizable perro = new Animal();
         Hechizo hechizo =libro.buscar("expelliarmus");
         hechizo.aplicarHechizo(perro);
         assertEquals("Me desarmaron", perro.getEstado());
@@ -26,12 +26,24 @@ public class test {
 
     @Test
     public void verSiUnHechizableCrece() {
-        Hechizo crecer = new Agrandar("enormuvus");
-        Hechizable mesa = new Mueble();
         libro.agregarHechizo(crecer);
-//        System.out.println(libro.getHechizos());
+        Hechizable mesa = new Mueble();
         Hechizo hechizo =libro.buscar("enormuvus");
         hechizo.aplicarHechizo(mesa);
         assertEquals("Ahora soy más grande", mesa.getEstado());
+    }
+
+    @Test
+    public void noPoderAgregarUnMismoHechizo() {
+        libro.agregarHechizo(desarme);
+        assertEquals(1, libro.getHechizos().size());
+        libro.agregarHechizo(desarme2);
+        assertEquals(1, libro.getHechizos().size());
+    }
+
+    @Test
+    public void verSiUnHechizableNoEstaHechizado() {
+        Hechizable perro = new Animal();
+        assertEquals("Normal", perro.getEstado());
     }
 }

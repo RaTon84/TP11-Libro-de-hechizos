@@ -4,15 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f15a292c-4c7e-4b97-a87e-510f389f27e3" name="Changes" comment="create">
-      <change afterPath="$PROJECT_DIR$/src/ar/edu/unahur/obj2/hechizos/Agrandar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ar/edu/unahur/obj2/hechizos/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ar/edu/unahur/obj2/hechizos/Hechizable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ar/edu/unahur/obj2/hechizos/Mueble.java" afterDir="false" />
+    <list default="true" id="f15a292c-4c7e-4b97-a87e-510f389f27e3" name="Changes" comment="terminado (faltarian mas tests)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ar/edu/unahur/obj2/hechizos/Expelliarmus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ar/edu/unahur/obj2/hechizos/Expelliarmus.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ar/edu/unahur/obj2/hechizos/Hechizo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ar/edu/unahur/obj2/hechizos/Hechizo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ar/edu/unahur/obj2/hechizos/LibroDeHechizos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ar/edu/unahur/obj2/hechizos/LibroDeHechizos.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ar/edu/unahur/obj2/hechizos/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ar/edu/unahur/obj2/hechizos/Animal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ar/edu/unahur/obj2/hechizos/Hechizable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ar/edu/unahur/obj2/hechizos/Hechizable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ar/edu/unahur/obj2/hechizos/Mueble.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ar/edu/unahur/obj2/hechizos/Mueble.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/ar/edu/unahur/obj2/hechizos/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/ar/edu/unahur/obj2/hechizos/test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -51,33 +47,35 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Downloaded.Files.Path.Enabled": "false",
-    "JUnit.test.executor": "Run",
-    "JUnit.test.queSePuedaAgregarUnHechizoAlLibro.executor": "Run",
-    "JUnit.test.verSiUnHechizableCrece.executor": "Run",
-    "JUnit.test.verSiUnHechizableEstaHechizado.executor": "Run",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;JUnit.test.NoPoderAgregarUnMismoHechizo.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.test.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.test.queSePuedaAgregarUnHechizoAlLibro.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.test.verSiUnHechizableCrece.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.test.verSiUnHechizableEstaHechizado.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.test.verSiUnHechizableNoEstaHechizado.executor&quot;: &quot;Run&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="ar.edu.unahur.obj2.hechizos" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.test">
+  <component name="RunManager" selected="JUnit.test.verSiUnHechizableNoEstaHechizado">
     <configuration name="test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LibroDeHechizos" />
       <extension name="coverage">
@@ -93,7 +91,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="test.queSePuedaAgregarUnHechizoAlLibro" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="test.NoPoderAgregarUnMismoHechizo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="LibroDeHechizos" />
       <extension name="coverage">
         <pattern>
@@ -103,7 +101,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="ar.edu.unahur.obj2.hechizos" />
       <option name="MAIN_CLASS_NAME" value="ar.edu.unahur.obj2.hechizos.test" />
-      <option name="METHOD_NAME" value="queSePuedaAgregarUnHechizoAlLibro" />
+      <option name="METHOD_NAME" value="NoPoderAgregarUnMismoHechizo" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -141,12 +139,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="test.verSiUnHechizableNoEstaHechizado" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LibroDeHechizos" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ar.edu.unahur.obj2.hechizos.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ar.edu.unahur.obj2.hechizos" />
+      <option name="MAIN_CLASS_NAME" value="ar.edu.unahur.obj2.hechizos.test" />
+      <option name="METHOD_NAME" value="verSiUnHechizableNoEstaHechizado" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.test.verSiUnHechizableNoEstaHechizado" />
+        <item itemvalue="JUnit.test.NoPoderAgregarUnMismoHechizo" />
         <item itemvalue="JUnit.test" />
         <item itemvalue="JUnit.test.verSiUnHechizableEstaHechizado" />
         <item itemvalue="JUnit.test.verSiUnHechizableCrece" />
-        <item itemvalue="JUnit.test.queSePuedaAgregarUnHechizoAlLibro" />
       </list>
     </recent_temporary>
   </component>
@@ -168,7 +183,10 @@
       <updated>1729608262117</updated>
       <workItem from="1729608263136" duration="5718000" />
       <workItem from="1729629111554" duration="1073000" />
-      <workItem from="1729781726571" duration="2717000" />
+      <workItem from="1729781726571" duration="2953000" />
+      <workItem from="1729824323118" duration="14000" />
+      <workItem from="1729863388753" duration="2351000" />
+      <workItem from="1729890392710" duration="762000" />
     </task>
     <task id="LOCAL-00001" summary="create">
       <option name="closed" value="true" />
@@ -186,7 +204,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729612883501</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="terminado (faltarian mas tests)">
+      <option name="closed" value="true" />
+      <created>1729784691498</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1729784691498</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -205,6 +231,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="create" />
-    <option name="LAST_COMMIT_MESSAGE" value="create" />
+    <MESSAGE value="terminado (faltarian mas tests)" />
+    <option name="LAST_COMMIT_MESSAGE" value="terminado (faltarian mas tests)" />
   </component>
 </project>
